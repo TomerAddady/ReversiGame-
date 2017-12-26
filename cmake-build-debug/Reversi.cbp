@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Reversi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/tomer/CLionProjects/Reversi/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tomer/CLionProjects/Reversi/lib/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/tomer/CLionProjects/Reversi/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tomer/CLionProjects/Reversi/lib/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/home/tomer/CLionProjects/Reversi/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tomer/CLionProjects/Reversi/lib/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/home/tomer/CLionProjects/Reversi/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tomer/CLionProjects/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tomer/CLionProjects/Reversi/lib/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tomer/CLionProjects/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Board.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Cell.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Client.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/ConsolePainter.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Game.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/GameLogic.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/HumanPlayer.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/IOEPlayer.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Painter.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/Player.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/RegularLogic.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/include/RemotePlayer.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/Board.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/Cell.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/Client.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/ConsolePainter.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/Game.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/GameLogic.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/HumanPlayer.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/IOEPlayer.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/RegularLogic.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/RemotePlayer.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/client/src/main.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/CloseCommand.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/CloseCommand.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/Command.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/CommandsManager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/CommandsManager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/GameManager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/GameManager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/Game_Room.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/Game_Room.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/GetGamesListCommand.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/GetGamesListCommand.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/JoinCommand.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/JoinCommand.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/PlayCommand.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/PlayCommand.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/Server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/Server.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/StartCommand.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/StartCommand.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/src/server/main.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/tomer/CLionProjects/Reversi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
